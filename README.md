@@ -28,7 +28,7 @@
 
 ### 1️⃣ 创建虚拟环境
 ```bash
-conda create -p lkr/conda/lm python=3.10
+conda create -p lkr/conda/lm python=3.8
 ```
 
 ### 2️⃣ 安装依赖
@@ -47,5 +47,6 @@ bash run-h4.sh --epochs 10 --batch_size 64 --seed 42
 ```bash
 python src/translate.py
 ```
-
+## 📜 系统环境
+本实验在配备 NVIDIA GeForce RTX 3090 GPU（24GB 显存）的硬件环境下进行，采用 PyTorch 2.4.1+cu121 深度学习框架和 Python 3.8.20 编程环境。
 
